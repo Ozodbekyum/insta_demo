@@ -26,23 +26,25 @@ class _HomePageState extends State<HomePage> {
           GButton(
             icon: Icons.home,
             text: 'Home',
-            onPressed: () {
-              setState(() {
-                body2 = AllImages();
-              });
-            },
+            
           ),
           GButton(
               icon: Icons.favorite,
               text: 'Like',
               onPressed: () {
-                setState(() {
-                  body2 = PageS();
-                });
-              }),
+              setState(() {
+                body2 = AllImages();
+              });
+            },
+              ),
           GButton(
             icon: Icons.notifications,
             text: 'Sms',
+            onPressed: () {
+                setState(() {
+                  body2 = PageS();
+                });
+              }
           ),
           GButton(
             icon: Icons.settings,

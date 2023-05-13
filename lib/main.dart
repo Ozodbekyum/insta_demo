@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:insta_demo/widgets/all_images.dart';
 import 'package:insta_demo/widgets/home_page.dart';
 
 void main() {
