@@ -17,11 +17,11 @@ class _AllImagesState extends State<AllImages> {
         body: MasonryGridView.builder(
       itemCount: 6,
       gridDelegate: SliverSimpleGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
+        crossAxisCount: 2,
       ),
       itemBuilder: (context, index) => Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Image.asset('img/p${index+1}.jpg'),
+        child: Image.asset('img/p${index + 1}.jpg'),
       ),
     ));
   }
